@@ -15,9 +15,19 @@ export default {
     ]
   },
 
+  loading: false, // disable loading bar
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/styles/reset.scss',
+    '~/assets/styles/base.scss',
+    '~/assets/styles/highlight.scss',
+    '~/assets/styles/app.scss'
   ],
+
+  styleResources: {
+    scss: ['./assets/styles/tokens.scss']
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -33,10 +43,6 @@ export default {
     '@nuxtjs/svg',
     '@nuxtjs/style-resources'
   ],
-
-  styleResources: {
-    scss: ['~/assets/styles/tokens.scss']
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

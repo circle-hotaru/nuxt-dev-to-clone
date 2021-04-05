@@ -1,20 +1,38 @@
 # nuxt-dev-to-clone
 
-## Build Setup
+> An intermediate practice app for Vue & Nuxt, which using [DEV.TO](https://dev.to/) public [API](https://docs.forem.com/api/)
+
+## Demo
+
+<p align="center">
+  <img src="./static/demo.gif">
+</p>
+
+## Technology Stack
+
+- Vue
+- Nuxt
+- Fetch
+- Scss
+- Nuxt Style Resources
+- vue-content-placeholders
+- vue-observe-visibility
+
+## Getting Started
 
 ```bash
+# clone the project
+git clone https://github.com/circle-hotaru/nuxt-dev-to-clone.git
+
 # install dependencies
-$ npm install
+npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# start the project
+npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+# go to http://localhost:3000
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Reference
+
+[Build a dev.to clone with Nuxt new fetch](https://nuxtjs.org/blog/build-dev-to-clone-with-nuxt-new-fetch)

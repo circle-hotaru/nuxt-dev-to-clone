@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.1.12",
+    "fibers": "^5.0.0",
     "sass": "^1.32.8",
     "sass-loader": "^10.1.1"
   }
